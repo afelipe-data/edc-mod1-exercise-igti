@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "lambda_function_name" {
-  default = "IGTIexecutaEMRaovivo2"
+  default = "IGTIexecutaEMRaovivo3"
 }
 
 variable "key_pair_name" {

@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-  bucket = "datalake-ney-igti-edc-tf"
+  bucket = "datalake-afelipe-xp-edc-tf"
   acl    = "private"
 
   tags = {
@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "igti-ney-streaming-bucket"
+  bucket = "xp-afelipe-streaming-bucket"
   acl    = "private"
 
   tags = {
